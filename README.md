@@ -58,6 +58,11 @@ Since, this is a jupyter notebook file so, make sure that you have Anaconda soft
 
 After installation you just need to upload this file after downloading it from the repository in Jupyter Notebook's local directory and run the notebook cells accordingly after uploading the training and testing datasets in the local directory of Jupyter Notebook as well.
 
+# Screenshots
+
+![Screenshot (36)](https://user-images.githubusercontent.com/46643368/68530344-75069a00-032d-11ea-908f-7ffe3ea69f2a.png)
+
+
 # Summary
 In this project, I learnt about the most simple machine learning classifier — the k-Nearest Neighbor classifier, or simply k-NN for short. The k-NN algorithm classifies unknown data points by comparing the unknown data point to each data point in the training set. This comparison is done using a distance function or similarity metric. Then, from the k most similar examples in the training set, we accumulate the number of “votes” for each label. The category with the highest number of votes “wins” and is chosen as the overall classification.
 
