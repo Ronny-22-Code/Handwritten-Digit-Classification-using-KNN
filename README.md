@@ -1,9 +1,15 @@
+# Handwritten-Digit-Classification-using-KNN
+This repository introduces to my project "Handwritten-Digit-Classification" using MNIST Data-set . This project was implemented and executed by applying KNN algorithm with recognition accuracy of around 91-93 % . The desired results have been obtained by training the machine first using the mnist_train data-set and later testing the obtained results using mnist_test data-set , to recognise the handwritten digit.  
+
 # Introduction
 The aim of this project is to implement a classification algorithm to recognize handwritten digits (0‐ 9). It has been shown in pattern recognition that no single classifier performs the best for all pattern classification problems consistently. Hence, the scope of the project also included the elementary study the different classifiers and combination methods, and evaluate the caveats around their performance in this particular problem of handwritten digit recognition. This report presents our implementation of the Principal Component Analysis (PCA) combined with 1‐Nearest Neighbor to recognize the numeral digits, and discusses the other different classification patterns. We were able to achieve an accuracy rate of 92.8%.
 
 # Overview of the Project
-Hand writing recognition of characters has been around since the 1980s.The task of handwritten digit recognition, using a classifier, has great importance and use such as – online handwriting recognition on computer tablets, recognize zip codes on mail for postal mail sorting, processing bank check amounts, numeric entries in forms filled up by hand (for example ‐ tax forms) and so on. There are different challenges faced while attempting to solve this problem. The handwritten digits are not always of the same size, thickness, or orientation and position relative to the margins. Our goal was to implement a pattern classification method to recognize the handwritten digits provided in the MINIST data set of images of hand written digits (0‐9). The data set used for our application is composed of 300 training images and 300 testing images, and is a subset of the MNIST data set [1] (originally composed of 60,000 training images and 10,000 testing images). Each image is a 28 x 28 grayscale (0‐255) labeled representation of an individual digit.   The general problem we predicted we would face in this digit classification problem was the similarity between the digits like 1 and 7, 5 and 6, 3 and 8, 9 and 8 etc. Also people write the same digit in many different ways ‐ the digit ‘1’ is written as ‘1’, ‘1’, ‘1’ or ‘1’. Similarly 7 may be written as 7, 7, or 7. Finally the uniqueness and variety in the handwriting of different individuals also influences the formation and appearance of the digits.      
-			         
+Hand writing recognition of characters has been around since the 1980s.The task of handwritten digit recognition, using a classifier, has great importance and use such as – online handwriting recognition on computer tablets, recognize zip codes on mail for postal mail sorting, processing bank check amounts, numeric entries in forms filled up by hand (for example ‐ tax forms) and so on. There are different challenges faced while attempting to solve this problem. The handwritten digits are not always of the same size, thickness, or orientation and position relative to the margins. Our goal was to implement a pattern classification method to recognize the handwritten digits provided in the MINIST data set of images of hand written digits (0‐9). The data set used for our application is composed of 300 training images and 300 testing images, and is a subset of the MNIST data set [1] (originally composed of 60,000 training images and 10,000 testing images). Each image is a 28 x 28 grayscale (0‐255) labeled representation of an individual digit.   The general problem we predicted we would face in this digit classification problem was the similarity between the digits like 1 and 7, 5 and 6, 3 and 8, 9 and 8 etc. Also people write the same digit in many different ways ‐ the digit ‘1’ is written as ‘1’, ‘1’, ‘1’ or ‘1’. Similarly 7 may be written as 7, 7, or 7. Finally the uniqueness and variety in the handwriting of different individuals also influences the formation and appearance of the digits.  
+
+
+Fig. 1 Sample digits used for training the classifier  
+
 # Literature Survey
 Hand Written Character Recognition using Star-Layered Histogram Features 
 Stephen Karungaru, Kenji Terada and Minoru Fukumi 
@@ -36,7 +42,10 @@ The MNIST handwritten digit classification problem is a standard dataset used in
 Our approach to solve this problem of handwritten numeral recognition can be broadly divided into three blocks: 
 i) Pre‐Processing/Digitization ii) Feature Extraction using PCA iii) Classification using 1‐Nearest Neighbor algorithm; The block diagram for the system is shown below (Fig. 2): 
  
-Fig.2. System Diagram of the implemented pattern classifier 
+
+![image](https://user-images.githubusercontent.com/46643368/68530843-345d4f80-0332-11ea-9c14-c75551016a3d.png)
+
+Fig.2. System Diagram of the implemented pattern classifier
 
 
 # Testing
