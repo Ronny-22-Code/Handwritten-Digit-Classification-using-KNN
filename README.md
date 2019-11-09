@@ -2,8 +2,8 @@
 This repository introduces to my project "Handwritten-Digit-Classification" using MNIST Data-set . This project was implemented and executed by applying KNN algorithm with recognition accuracy of around 91-93 % . The desired results have been obtained by training the machine first using the mnist_train data-set and later testing the obtained results using mnist_test data-set , to recognise the handwritten digits.  
 We’re going to start this lesson by reviewing the simplest image classification algorithm: k-Nearest Neighbor (k-NN). This algorithm is so simple that it doesn’t do any actual “learning” — yet it is still heavily used in many computer vision algorithms. And as you’ll see, we’ll be able to utilize this algorithm to recognize handwritten digits from the popular MNIST dataset.
 
-Objectives:
-By the end of this lesson, you will:
+# Objectives:
+By the end of the project , you will :-
 
 Have an understanding of the k-Nearest Neighbor classifier.
 Know how to apply the k-Nearest Neighbor classifier to image datasets.
@@ -21,14 +21,15 @@ However, in order to apply the k-Nearest Neighbor classifier, we first need to s
 
 In reality, you can use whichever distance metric/similarity function most suits your data (and gives you the best classification results). However, for the remainder of this lesson, we’ll be using the most popular distance metric: the Euclidean distance.
 
-k-NN in action
+# k-NN in action
+
 At this point, we understand the principles of the k-NN algorithm. We know that it relies on the distance between feature vectors to make a classification. And we know that it requires a distance metric/similarity function to compute these distances.
 
-But how do we actually make the classification?
+# But how do we actually make the classification?
 
 We can keep performing this process for varying values of k, but no matter how large or small k becomes, the principle remains the same — the category with the largest number of votes in the k closest training points wins and is used as the label for the testing point.
 
-Recognizing handwritten digits using MNIST
+# Recognizing handwritten digits using MNIST
 
  We’ll be using the k-Nearest Neighbor classifier to classify images from the MNIST dataset, which consists of handwritten digits. The MNIST dataset is one of the most well studied datasets in the computer vision and machine learning literature. In many cases, it’s a benchmark and a standard to which machine learning algorithms are ranked.
 
@@ -48,14 +49,14 @@ Step 3 – Extracting features: Instead of extracting features to represent and 
 Step 4 – Training our classification model: Our k-NN classifier will be trained on the raw pixel intensities of the images in the training set. We’ll then determine the best value of k using the validation set.
 Step 5 – Evaluating our classifier: Once we have found the best value of k, we can then evaluate our k-NN classifier on our testing set.
 
-How To Run ? 
+# How To Run ? 
 Since, this is a jupyter notebook file so, make sure that you have Anaconda software installed on your respective systems to run this source code file.
 
 After installation you just need to upload this file after downloading it from the repository in Jupyter Notebook's local directory and run the notebook cells accordingly after uploading the training and testing datasets in the local directory of Jupyter Notebook as well.
 
-Summary
+# Summary
 In this project, I learnt about the most simple machine learning classifier — the k-Nearest Neighbor classifier, or simply k-NN for short. The k-NN algorithm classifies unknown data points by comparing the unknown data point to each data point in the training set. This comparison is done using a distance function or similarity metric. Then, from the k most similar examples in the training set, we accumulate the number of “votes” for each label. The category with the highest number of votes “wins” and is chosen as the overall classification.
 
 While simple and intuitive, and though it can even obtain very good accuracy in certain situations, the k-NN algorithm has a number of drawbacks. The first is that it doesn’t actually “learn” anything — if the algorithm makes a mistake, it has no way to “correct” and “improve” itself for later classifications. Secondly, without specialized data structures, the k-NN algorithm scales linearly with the number of data points, making it a questionable choice for large datasets.
 
-To conclude, we applied the k-NN algorithm to the MNIST dataset for handwriting recognition. Simply by computing the Euclidean distance between raw pixel intensities, we were able to obtain a very high accuracy of 98%. However, it’s important to note that the MNIST dataset is heavily pre-processed, and we will require more advanced methods for recognize handwriting in real-world images.
+# To conclude, we applied the k-NN algorithm to the MNIST dataset for handwriting recognition. Simply by computing the Euclidean distance between raw pixel intensities, we were able to obtain a very high accuracy of 98%. However, it’s important to note that the MNIST dataset is heavily pre-processed, and we will require more advanced methods for recognize handwriting in real-world images.
