@@ -77,6 +77,17 @@ Fig.2. System Diagram of the implemented pattern classifier
 
 •	Step10: End. 
 
+# How to Run ?
+
+The project was executed using Anaconda software, and this source code file was tested on Jupyter notebook , so do ensure that you must have Anaconda software installed on your systems.
+After installation of Anaconda software , follow the steps mentioned below:-
+
+Step-1 : Upload the source code file in the local directory of Jupyter notebook, by just clicking on upload button in the Home directory of Jupyter notebook.
+
+Step-2 : Similarly, upload the train_data and test_data dataset files by unzipping the files on your systems.
+
+Step-3 : Simply, execute the source code in the Jupyter notebook cells.  
+
 # Implementation
 In short, the problem of Handwritten digits Classification is solve by  k-nearest-neighbors algorithm using MNIST data set. 
 The MNIST dataset is an acronym that stands for the Modified National Institute of Standards and Technology dataset.
