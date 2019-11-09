@@ -58,6 +58,7 @@ Since, this is a jupyter notebook file so, make sure that you have Anaconda soft
 
 After installation you just need to upload this file after downloading it from the repository in Jupyter Notebook's local directory and run the notebook cells accordingly after uploading the training and testing datasets in the local directory of Jupyter Notebook as well.
 
+
 # Screenshots
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/46643368/68530344-75069a00-032d-11ea-908f-7ffe3ea69f2a.png)
@@ -80,7 +81,15 @@ After installation you just need to upload this file after downloading it from t
 
 # Output 
 
+![Screenshot (44)](https://user-images.githubusercontent.com/46643368/68530429-18f04580-032e-11ea-8212-f0379b2d8b3b.png)
 
+![Screenshot (45)](https://user-images.githubusercontent.com/46643368/68530430-1b529f80-032e-11ea-8c9b-20eafcd32860.png)
+
+![Screenshot (46)](https://user-images.githubusercontent.com/46643368/68530433-1f7ebd00-032e-11ea-90f6-6a03a9aca2ef.png)
+
+![Screenshot (48)](https://user-images.githubusercontent.com/46643368/68530438-23124400-032e-11ea-81f4-e68a06ab0257.png)
+
+![Screenshot (49)](https://user-images.githubusercontent.com/46643368/68530441-29a0bb80-032e-11ea-95dc-3a1402b4edab.png)
 
 
 # Summary
@@ -88,4 +97,4 @@ In this project, I learnt about the most simple machine learning classifier — 
 
 While simple and intuitive, and though it can even obtain very good accuracy in certain situations, the k-NN algorithm has a number of drawbacks. The first is that it doesn’t actually “learn” anything — if the algorithm makes a mistake, it has no way to “correct” and “improve” itself for later classifications. Secondly, without specialized data structures, the k-NN algorithm scales linearly with the number of data points, making it a questionable choice for large datasets.
 
- To conclude, we applied the k-NN algorithm to the MNIST dataset for handwriting recognition. Simply by computing the Euclidean distance between raw pixel intensities, we were able to obtain a very high accuracy of 92.8%. However, it’s important to note that the MNIST dataset is heavily pre-processed, and we will require more advanced methods for recognize handwriting in real-world images.
+To conclude, we applied the k-NN algorithm to the MNIST dataset for handwriting recognition. Simply by computing the Euclidean distance between raw pixel intensities, we were able to obtain a very high accuracy of 92.8%. However, it’s important to note that the MNIST dataset is heavily pre-processed, and we will require more advanced methods for recognize handwriting in real-world images.
