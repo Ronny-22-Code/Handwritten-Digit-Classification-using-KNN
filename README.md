@@ -43,11 +43,15 @@ Our goal here is to train a k-NN classifier on the raw pixel intensities and the
 
 To accomplish this goal, we’ll be using our five-step pipeline to train image classifiers:
 
-Step 1 – Structuring our initial dataset: Our initial dataset consists of 60,000 digits representing the numbers 0-9. These images are grayscale, 8 x 8 images with digits appearing as white on a black background. These digits have also been heavily pre-processed, aligned, and centered, making our classification job slightly easier.
-Step 2 – Splitting the dataset: We’ll be using three splits for our experiment. The first set is our training set, used to train our k-NN classifier. We’ll also use a validation set to find the best value for k. And we’ll finally evaluate our classifier using the testing set.
-Step 3 – Extracting features: Instead of extracting features to represent and characterize each digit (such as HOG, Zernike Moments, etc), we’ll instead use just the raw, grayscale pixel intensities of the image.
-Step 4 – Training our classification model: Our k-NN classifier will be trained on the raw pixel intensities of the images in the training set. We’ll then determine the best value of k using the validation set.
-Step 5 – Evaluating our classifier: Once we have found the best value of k, we can then evaluate our k-NN classifier on our testing set.
+# Step 1 – Structuring our initial dataset: Our initial dataset consists of 60,000 digits representing the numbers 0-9. These images are grayscale, 8 x 8 images with digits appearing as white on a black background. These digits have also been heavily pre-processed, aligned, and centered, making our classification job slightly easier.
+
+# Step 2 – Splitting the dataset: We’ll be using three splits for our experiment. The first set is our training set, used to train our k-NN classifier. We’ll also use a validation set to find the best value for k. And we’ll finally evaluate our classifier using the testing set.
+
+# Step 3 – Extracting features: Instead of extracting features to represent and characterize each digit (such as HOG, Zernike Moments, etc), we’ll instead use just the raw, grayscale pixel intensities of the image.
+
+# Step 4 – Training our classification model: Our k-NN classifier will be trained on the raw pixel intensities of the images in the training set. We’ll then determine the best value of k using the validation set.
+
+# Step 5 – Evaluating our classifier: Once we have found the best value of k, we can then evaluate our k-NN classifier on our testing set.
 
 # How To Run ? 
 Since, this is a jupyter notebook file so, make sure that you have Anaconda software installed on your respective systems to run this source code file.
@@ -59,4 +63,4 @@ In this project, I learnt about the most simple machine learning classifier — 
 
 While simple and intuitive, and though it can even obtain very good accuracy in certain situations, the k-NN algorithm has a number of drawbacks. The first is that it doesn’t actually “learn” anything — if the algorithm makes a mistake, it has no way to “correct” and “improve” itself for later classifications. Secondly, without specialized data structures, the k-NN algorithm scales linearly with the number of data points, making it a questionable choice for large datasets.
 
-# To conclude, we applied the k-NN algorithm to the MNIST dataset for handwriting recognition. Simply by computing the Euclidean distance between raw pixel intensities, we were able to obtain a very high accuracy of 92.8%. However, it’s important to note that the MNIST dataset is heavily pre-processed, and we will require more advanced methods for recognize handwriting in real-world images.
+ To conclude, we applied the k-NN algorithm to the MNIST dataset for handwriting recognition. Simply by computing the Euclidean distance between raw pixel intensities, we were able to obtain a very high accuracy of 92.8%. However, it’s important to note that the MNIST dataset is heavily pre-processed, and we will require more advanced methods for recognize handwriting in real-world images.
