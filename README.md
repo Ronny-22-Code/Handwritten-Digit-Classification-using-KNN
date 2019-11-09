@@ -56,15 +56,24 @@ Fig.2. System Diagram of the implemented pattern classifier
 
 # Testing
 •	The overall classification design of the MNIST digit database is shown in following algorithm. Algorithm: Classification of Digits Input: Isolated Numeral images from MNIST Database Output: Recognition of the Numerals Method: Structural features and KNN classifier.
-•	 Step 1: Convert the gray level image into Binary image
-•	 Step 2: Preprocessing the Binary Image
-•	 Step 3: Convert the Binary Image into a single Dimensional Array of [1,n]
-•	 Step 4: Keep the label of each Array along with it.
+• Step 1: Convert the gray level image into Binary image
+
+•	Step 2: Preprocessing the Binary Image
+
+•	Step 3: Convert the Binary Image into a single Dimensional Array of [1,n]
+
+•	Step 4: Keep the label of each Array along with it.
+
 •	Step 5: Feed the classifier with the train_data set.
+
 •	Step 6: Repeat the steps from 1 to 5 for all images in the Sample and Test Database. 
+
 •	Step 7: Estimate the minimum distance between feature vector and vector stored in the library by using Euclidian distances.
+
 •	Step 8: Feed the classifier with test_data set.
+
 •	Step 9: Classify the input images into appropriate class label using minimum distance K-nearest neighbor classifier.
+
 •	Step10: End. 
 
 # Implementation
