@@ -39,12 +39,11 @@ K-Nearest Neighbors (or KNN) is a simple classification algorithm that is surpri
 
 However, in order to apply the k-Nearest Neighbor classifier, we first need to select a distance metric or a similarity function. We briefly discussed the Euclidean distance (often called the L2-distance) in our project:
 
-
-
-
+![image](https://user-images.githubusercontent.com/46643368/68531191-b733d980-0335-11ea-8348-72e12e358259.png)
 
 •MNIST Dataset
 The MNIST handwritten digit classification problem is a standard dataset used in computer vision and deep learning. Although, the dataset is effectively solved, it can be used as the basis for learning and practicing how to develop, evaluate, and use convolutional deep learning neural networks for image classification from scratch. This includes how to develop a robust test harness for estimating the performance of the model, how to explore improvements to the model, and how to save the model and later load it to make predictions on new data.
+ 
  # System Overview 
 Our approach to solve this problem of handwritten numeral recognition can be broadly divided into three blocks: 
 i) Pre‐Processing/Digitization ii) Feature Extraction using PCA iii) Classification using 1‐Nearest Neighbor algorithm; The block diagram for the system is shown below (Fig. 2): 
