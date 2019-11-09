@@ -62,6 +62,26 @@ After installation you just need to upload this file after downloading it from t
 
 ![Screenshot (36)](https://user-images.githubusercontent.com/46643368/68530344-75069a00-032d-11ea-908f-7ffe3ea69f2a.png)
 
+![Screenshot (37)](https://user-images.githubusercontent.com/46643368/68530390-bf881680-032d-11ea-9f14-cd9fd6603eee.png)
+
+
+![Screenshot (38)](https://user-images.githubusercontent.com/46643368/68530394-c878e800-032d-11ea-8472-be42ca2493a8.png)
+
+
+![Screenshot (40)](https://user-images.githubusercontent.com/46643368/68530400-cd3d9c00-032d-11ea-9985-63dd9017e2e2.png)
+
+![Screenshot (41)](https://user-images.githubusercontent.com/46643368/68530403-d464aa00-032d-11ea-8046-a9c4536762bb.png)
+
+
+![Screenshot (42)](https://user-images.githubusercontent.com/46643368/68530407-d9295e00-032d-11ea-9602-add99102a620.png)
+
+![Screenshot (43)](https://user-images.githubusercontent.com/46643368/68530413-df1f3f00-032d-11ea-8945-8849cd37474e.png)
+
+
+# Output 
+
+
+
 
 # Summary
 In this project, I learnt about the most simple machine learning classifier — the k-Nearest Neighbor classifier, or simply k-NN for short. The k-NN algorithm classifies unknown data points by comparing the unknown data point to each data point in the training set. This comparison is done using a distance function or similarity metric. Then, from the k most similar examples in the training set, we accumulate the number of “votes” for each label. The category with the highest number of votes “wins” and is chosen as the overall classification.
