@@ -56,6 +56,7 @@ Fig.2. System Diagram of the implemented pattern classifier
 
 # Testing
 •	The overall classification design of the MNIST digit database is shown in following algorithm. Algorithm: Classification of Digits Input: Isolated Numeral images from MNIST Database Output: Recognition of the Numerals Method: Structural features and KNN classifier.
+
 • Step 1: Convert the gray level image into Binary image
 
 •	Step 2: Preprocessing the Binary Image
